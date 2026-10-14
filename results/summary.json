@@ -1,0 +1,25 @@
+{
+  "raw_rows": 12330,
+  "rows": 12205,
+  "duplicates_removed": 125,
+  "missing_cells": 0,
+  "purchase_rate": 0.15632937320770177,
+  "train_rows": 9764,
+  "test_rows": 2441,
+  "test_purchase_rate": 0.15649324047521507,
+  "winner": "Random forest",
+  "best_parameters": {
+    "Logistic regression": {
+      "model__C": 0.1
+    },
+    "Random forest": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 3
+    }
+  },
+  "seed": 42,
+  "excluded": [
+    "Revenue (target)",
+    "PageValues (potential leakage)"
+  ]
+}
